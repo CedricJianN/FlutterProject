@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'signup_page.dart';
+import 'success_page.dart';
 import 'page1.dart';
 import 'page2.dart';
 
