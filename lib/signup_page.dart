@@ -20,7 +20,7 @@ class _SignUpPageState extends State<SignUpPage> {
     String username = _usernameController.text;
     String password = _passwordController.text;
 
-    // 👉 Print input values to console
+  
     print('======================');
     print('Sign-Up Data:');
     print('Last Name: $lastName');
@@ -29,7 +29,7 @@ class _SignUpPageState extends State<SignUpPage> {
     print('Password: $password');
     print('======================');
 
-    // 👉 Optional: Print as JSON
+   
     Map<String, String> userData = {
       'lastName': lastName,
       'firstName': firstName,
